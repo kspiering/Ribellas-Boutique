@@ -1,0 +1,113 @@
+/* Small Reset */
+*::before, *::after, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Mobile */
+@media (max-width: 550px){
+
+
+    h2 {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        }
+
+        table {
+            width: 380px;
+            height: auto;
+            font-size: 18px;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            margin-left: 2rem;
+        }
+    
+        tr.titel {
+           
+            font-size: 20px;
+        }
+    
+        th.th-titel {
+            position: relative;
+            left: -1.5rem;
+        }
+    
+        th.th-id {
+            position: relative;
+            left: -0.5rem;
+        }
+    
+    
+        button#cms {
+            background-color: rgb(215, 199, 186, 0.2);
+            height: 50px;
+            width: 120px;
+            font-size: 18px;
+            border-radius: 3px;
+            border: 1px solid rgb(74, 74, 74); 
+        }
+    
+        button:hover {
+            background-color: rgb(215, 199, 186);
+        }
+ 
+}
+
+
+/* Desktop */
+@media (min-width: 550px){
+
+
+    h2 {
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 1rem;
+        }
+
+    table {
+        width: 500px;
+        height: auto;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    tr.titel {
+       font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+
+    th.th-titel {
+        position: relative;
+        left: -4rem;
+    }
+
+    th.th-id {
+        position: relative;
+        left: -1rem;
+    }
+
+
+
+    button#cms {
+        background-color: rgb(215, 199, 186, 0.2);
+        height: 40px;
+        width: 100px;
+        font-size: 18px;
+        border-radius: 3px;
+        border: 1px solid rgb(74, 74, 74); 
+    }
+
+    button:hover {
+        background-color: rgb(215, 199, 186);
+    }
+
+}

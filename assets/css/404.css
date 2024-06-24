@@ -1,0 +1,71 @@
+/* Small Reset */
+*::before, *::after, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 610px) {
+
+    .fehler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        
+        h1 {
+            font-size: 50px;
+            margin-top: 6rem;
+            font-weight: bold;
+        }
+        
+        h2 {
+            font-size: 22px;
+            margin-top: 3rem;
+            font-weight: bold;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            font-weight: bold;
+        
+        }
+
+}
+
+@media (min-width: 610px) {
+
+    .fehler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        
+        h1 {
+            font-size: 70px;
+            margin-top: 8rem;
+            font-weight: bold;
+        }
+        
+        h2 {
+            font-size: 30px;
+            margin-top: 3rem;
+            font-weight: bold;
+        }
+        
+        h3 {
+            font-size: 22px;
+            margin-top: 3rem;
+            font-weight: bold;
+        
+        }
+    
+}
