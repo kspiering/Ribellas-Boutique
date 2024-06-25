@@ -49,11 +49,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submitBlog'])) {
 
                     $stmt->execute();
 
-                    sleep(2);
                     $successMessage = 'Blog successfully created and sent to databank';
                     echo $successMessage;
-
-                    header('Location: ../cms-create-blog');
+                    sleep(2);
+                    header('Location: ../cms-blogposts');
                     exit;
 
                 } catch (PDOException $e) {
